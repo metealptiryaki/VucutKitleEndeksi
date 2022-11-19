@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class VucutKitleEndeksi {
+	public static void main(String[] args) {
+	/*Vücut Kitle İndeksi Hesaplama
+	Java ile kullanıcıdan boy ve kilo değerlerini alıp bir değişkene atayın. Aşağıdaki formüle göre kullanıcının 
+	"Vücut Kitle İndeks" değerini hesaplayıp ekrana yazdırın.
+	Formül
+	Kilo (kg) / Boy(m) * Boy(m)
+	 */
+		double boy,kilo,indeks;
+		Scanner k = new Scanner(System.in);
+		System.out.print("Boyunuzu girin :");
+		boy = k.nextDouble();
+		System.out.print("Kilonuzu girin :");
+		kilo = k.nextDouble();
+		indeks = kilo/boy;
+		System.out.println("Vucut Kitle Endeksiniz : " + indeks);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
